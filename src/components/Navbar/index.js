@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../../images/logo.svg';
 import {
 Nav,
 NavLink,
@@ -12,9 +13,13 @@ const Navbar = () => {
 return (
 	<>
 	<Nav>
+		<NavLink to="/">
+		<img src={Logo} alt='logo' />
+		</NavLink>
 		<Bars />
 
 		<NavMenu>
+		
 		<NavLink to='/about' activestyle="true">
 			About
 		</NavLink>
