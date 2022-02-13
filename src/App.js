@@ -1,4 +1,4 @@
-import logo from 'file:///C:/Users/tokri/Downloads/Dom%20K%20(1).png';
+import logo from './logo.svg';
 import './App.css';
 
 
