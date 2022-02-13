@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Navbar from "./navbar";
 
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Dom K's Portfolio</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <div className='App'>
-        <button type="button" onClick={()=> window.open("https://pogbotter.herokuapp.com", "_blank")}>Pog Bot</button>
-      </div>
+const App = () => {
+    return (
+        <body className="App" style={{display: 'flex', justifyContent:'center', alignItems: 'start', height: '100vh'}}> 
+            
+        <div>  
+            <h1 >Dom's Portfolio</h1>
+            
         
-      </header>
-      
-    </div> 
-    
-    
-  ); 
+            <button type="button" onClick={()=> window.open("https://pogbotter.herokuapp.com", "_blank")}>Pog Bot</button>
+            
+        </div>
+        <div>
+            <section>
+            <Navbar></Navbar>
+            </section>
+        </div>
+        </body>
+         
+        
+    )
 }
-
 
 export default App;
