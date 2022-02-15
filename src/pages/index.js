@@ -10,7 +10,8 @@ return (
         alignItems: 'Right',
         height: '100vh'
     }}>
-    <h1>Yo</h1>
+    <h1>Hello Welcome to my Portfolio to showcase my projects!</h1>
+    
     </div>
 </>
 );

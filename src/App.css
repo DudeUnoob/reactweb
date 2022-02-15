@@ -68,4 +68,12 @@ button {
   h1.Aboutme {
       margin-top: 10px;
   }
+
+  iframe{
+    position: relative; left: -370px; bottom: -145px;
+  }
+
+  p.discord{
+    position: relative; left: -680px; bottom: -100px;
+  }
  

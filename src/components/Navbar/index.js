@@ -9,6 +9,7 @@ NavBtn,
 NavBtnLink,
 } from './NavbarElements';
 
+
 const Navbar = () => {
 return (
 	<>
@@ -16,7 +17,9 @@ return (
 		<NavLink to="/">
 		<img src={Logo} alt='logo' />
 		</NavLink>
-		<Bars />
+		<Bars onClick={() => {
+			alert('This function is still in development on mobile')
+		}}/>
 
 		<NavMenu>
 		
