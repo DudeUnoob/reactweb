@@ -15,7 +15,10 @@ const Blogs = () => {
       
     </div>
     <div>
-    <button type="button" onClick={()=> window.open("https://pogbotter.herokuapp.com", "_blank")}>Pog Bot</button>
+    <button type="button" onClick={()=> window.open("https://pgbott.herokuapp.com", "_blank")}>Pog Bot</button>
+    </div>
+    <div>
+      <button className='ok'  type='button' onClick={() => window.open("https://api-roast.herokuapp.com", "_blank")}>Roast API</button>
     </div>
   </>
     

@@ -9,17 +9,17 @@ NavBtn,
 NavBtnLink,
 } from './NavbarElements';
 
+import '../../navbar.css';
 
 const Navbar = () => {
 return (
 	<>
+	
 	<Nav>
 		<NavLink to="/">
 		<img src={Logo} alt='logo' />
 		</NavLink>
-		<Bars onClick={() => {
-			alert('This function is still in development on mobile')
-		}}/>
+		<Bars className='styled'/>
 
 		<NavMenu>
 		
